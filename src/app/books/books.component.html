@@ -1,0 +1,28 @@
+<div class="row control" >
+    <div class="col-xs-12 col-sm-12 col-md-12 ">
+        <button color="primary" mat-fab="" (click)="onClickCreate();" class="mat-fab mat-primary float-right"> + </button>
+    </div>
+  </div>
+  <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+          <h2 class="title main-title">Welcome to your local library</h2>
+          <hr class="black">
+        </div>
+    </div>
+    
+  <div class="row book"  *ngFor="let singleBook of bookList">
+     <div class="col-xs-12 col-sm-12 col-md-12">
+      <app-book [book]="singleBook" [BookList]="bookList"  (updateOnModify)="onModifyUpdate($event)" (updateUponDelete)="onDeleteUpdate($event)"></app-book>
+</div>
+</div>
+
+<div class="row error" *ngIf="bookList.length === 0">
+
+    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+      <div class="error-wrapper">
+          <h2>wer'e Sorry :(</h2>
+          <p>No books were found !</p>
+          <p>But.. you can click the button to add one !</p>
+      </div>
+    </div>
+</div>

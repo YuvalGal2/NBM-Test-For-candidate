@@ -1,0 +1,15 @@
+.mat-card{
+    font-family: 'Open Sans', sans-serif !important;
+}
+.book-control{
+    margin:0.4rem !important;
+}
+.mat-card-title{
+    font-weight: 500;
+}
+
+.mat-raised-button{
+    border-radius: 7px;
+    font-weight: 700;
+    border:1px solid rgba(0,0,0,0.2);
+}

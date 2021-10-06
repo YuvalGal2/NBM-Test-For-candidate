@@ -1,0 +1,18 @@
+ [
+    {
+            "id": 1,
+            "authorName": "George R. R. Martin",
+            "publishedDate": "1980-01-09",
+            "bookTitle": "Song of fire and ice",
+            "bookDescription": "A Song of Ice and Fire is a series of epic fantasy novels by the American novelist and screenwriter George R. R. Martin. He began the first volume of the series, A Game of Thrones, in 1991, and it was published in 1996. Martin, who initially envisioned the series as a trilogy, has published five out of a planned seven volumes. The fifth and most recent volume of the series published in 2011, A Dance with Dragons, took Martin six years to write. He is still writing the sixth novel, The Winds of Winter."
+
+    }
+,
+    {
+        "id": 2,
+        "authorName": "Dr. Seuss",
+        "publishedDate": "1957-03-12",
+        "bookTitle": "The Cat in the Hat",
+        "bookDescription" : "The Cat in the Hat is a children's book written and illustrated by Theodor Geisel under the pen name Dr. Seuss and first published in 1957. The story centers on a tall anthropomorphic cat, who wears a red and white-striped hat and a red bow tie. The Cat shows up at the house of Sally and her brother one rainy day when their mother is away. Despite the repeated objections of the children's fish, the Cat shows the children a few of his tricks in an attempt to entertain them. "
+    }
+]

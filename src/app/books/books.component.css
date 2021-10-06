@@ -1,0 +1,50 @@
+
+.book{
+    margin-top:20px;
+}
+.error-wrapper{
+    margin:10px;
+    padding:10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+.black{
+    background-color:rgba(0,0,0,0.2);
+}
+.title{
+    margin:5px;
+    margin-top:10px;
+    font-size: 1.3rem;
+    color:black;
+    font-weight: 300;
+
+}
+.main-title{
+    font-size:1.2rem;
+    letter-spacing: 0.07rem;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: initial;
+}
+.mat-primary{
+
+    margin:10px;
+    margin-top:5px;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.mat-primary:focus{
+    outline: none;
+}
+.control{
+    margin-top:50px;
+}
+@media(min-width:998px){
+    .main-title{
+        font-size:2rem;
+    }
+}
